@@ -1,0 +1,73 @@
+/* Стилі для index.html */
+:root {
+    --main-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--main-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Site nav */
+.nav .list-link {
+    color: var(--secondary-text-color);
+}
+
+.nav-list .list-link:hover,
+.nav-list .list-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-list .list-link.current {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+    color: var(--primary-white-color)
+}
+
+/* Button */
+.btn {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: var(--accent-color);
+}
+
+/* Section */
+.features-list .list-title, .section-title, .team-name {
+    color: var(--secondary-text-color);
+}
+
+/* Стилі для portfolio.html */
+
+
+
+
+
+
+
+/* logo second part text color #000000 */
+/* logo first part and active elements text color #2196F3 */
+/* secondary text color #212121 */
+/* main text color #757575 */
+/* h1 and button color #FFFFFF */
+/* footer's colors: 
+logo part 1 #2196F3
+logo part 2 and address #FFFFFF
+email and phone number rgba(255, 255, 255, 0.6);
+*/
+/* background color: #FFFFFF;
+hero and footer background color #2F303A
+secondary background color #F5F4FA
+borders #ECECEC
+*/
