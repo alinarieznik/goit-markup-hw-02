@@ -18,6 +18,7 @@
     --primary-white-color: #FFFFFF;
     --secondary-bg-color: #F5F4FA;
     --hero-footer-bg-color: #2F303A;
+    --hero-btn-active-bg-color: #188CE8;
 
     /* Others */
 }
@@ -47,8 +48,8 @@ body {
 .nav-logo,
 .footer-logo {
     text-decoration: none;
-    color: currentColor;
     font-style: normal;
+    color: currentColor;
 }
 
 /* Site nav */
@@ -121,6 +122,11 @@ body {
     background-color: var(--accent-color);
 }
 
+.hero .btn:hover,
+.hero .btn:focus {
+    background-color: var(--hero-btn-active-bg-color);
+}
+
 .hero .btn.pointer {
     cursor: pointer;
 }
@@ -137,6 +143,7 @@ body {
 }
 
 .features-list .list-title {
+    font-size: 14px;
     font-weight: 700;
     line-height: calc(16 / 14);
     text-transform: uppercase;
@@ -144,7 +151,6 @@ body {
 }
 
 .features-list .list-text {
-    font-weight: 400;
     line-height: calc(24 / 14);
 }
 
@@ -175,7 +181,6 @@ body {
 }
 
 .team-list .list-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;  
@@ -195,7 +200,6 @@ body {
 }
 
 .footer-list .list-link {
-    font-weight: 400;
     line-height: calc(24 / 14);
     color: var(--email-phone-color);
 }
@@ -245,7 +249,7 @@ body {
 }
 
 .item-gallary .text {
-    font-weight: 400;
+    color: var(--main-text-color);
     font-size: 16px;
     line-height: calc(30 / 16);
 }
